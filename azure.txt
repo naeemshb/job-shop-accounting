@@ -1,0 +1,14 @@
+shah0037-sql-server.database.windows.net
+
+shah0037
+
+cs-dsa-4513-sql-db
+
+JDBC perform insert update in sql
+
+
+select supervise.processId, departmentnumber
+from Assembly, process, supervise
+where supervise.processId = process.processId 
+and Assembly.Assemblyid = 12
+order by dateofordered ASC
